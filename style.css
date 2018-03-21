@@ -1,0 +1,41 @@
+body {
+  background: lightblue;
+  width: 100%;
+  height: 100%;
+  margin: -1em 0;
+  padding: 0;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+nav {
+  margin: 0 auto;
+  background: red;
+  width: calc(auto + 1em);
+  height: 100%;
+  padding: 1em;
+  position: fixed;
+}
+
+nav > ul {
+  list-style: none;
+  display: list-item;
+  margin-left: -10%;
+}
+
+nav > ul > li {
+
+}
+
+nav > ul > li > button{
+  width: 10em;
+  height: 3em;
+}
+
+
+#canvas {
+  display: block;
+  margin: 2em auto;
+  background: #eff5ff;
+  border: 10px solid lightgrey;
+}

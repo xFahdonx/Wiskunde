@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>To the point</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <ul><li><button type="button" name="button">Draw the line</button></li></ul>
+    <ul><li><button type="button" name="button" onclick=>Intersection</button></li></ul>
+    <ul><li><button type="button" name="button">Perpendicular</button></li></ul>
+    <ul><li><button type="button" name="button">Inequality</button></li></ul>
+    <ul><li><button type="button" name="button">CenterOfGravity</button></li></ul>
+    <ul><li><button type="button" name="button">Orthoventer</button></li></ul>
+  </nav>
+
+
+  <a href="#">Draw the line</a>
+  <a href="html/middle.html">Intersection</a>
+  <a href="html/perpendicular.html">Perpendicular</a>
+  <a href="html/alltheballs.html">Inequality</a>
+  <a href="html/CenterOfGravity.html">CenterOfGravity</a>
+  <a href="html/Orthoventer.html">Orthoventer</a>
+  <a href="html/"></a>
+  <canvas id="canvas" width="800" height="800"></canvas>
+  <script src="lib/Point.js" charset="utf-8"></script>
+  <script src="lib/Line.js" charset="utf-8"></script>
+  <script src="lib/Vector2.js" charset="utf-8"></script>
+  <script src="scripts/script.js" charset="utf-8" id="mainscript"></script>
+  <script type="text/javascript">
+    var mainscript = document.getElementById('mainscript');
+    mainscript.type = "text/javascript";
+
+    function SetCurrentMainScript(newMainScript) {
+      mainscript.src = newMainScript;
+
+    }
+
+
+  </script>
+
+</body>
+
+</html>
